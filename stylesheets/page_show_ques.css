@@ -1,0 +1,65 @@
+#openmcq,#openfillups{
+    position: absolute;
+    top: 100px;
+    margin-left: 10%;
+    margin-right: 20%;
+    overflow: scroll;
+    width: 70%;
+    background-color: white;
+}
+#stt select,#fstt select,#fstat{
+    font-family: inherit;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    color: green;
+}
+#openshowall{
+    border : 2px solid black;
+    padding: 20px 20px;
+    display: none;
+}
+#openshowall button{
+    width: 150px;
+    font-family: inherit;
+    font-size: 18px;
+    padding: 10px 10px;
+    cursor:help;
+}
+#fileuplo1,#ques_img_but,#ques_uplo_fib_but,#del_uplo_fib,.sizereducer,#eqbut1,#eqbut2,#view1,#view2,#renopt,#renopt2{
+    font-family: inherit;
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+#img_path,#path_img_fib{
+    padding: 11px;
+    font-size:18px;
+    border:1px solid black;
+    width: 50%;
+    font-family:inherit;
+    border-right:0px;
+}
+#equ{
+    display: none;
+    border: 2px solid black;
+    width: 70%;
+    font-size: 20px;
+    position: absolute;
+    background-color: white;
+    top:200px;
+    margin-left: 200px;
+    margin-right: 100px;
+    text-align: center;
+}
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+#eqs1,#eqs2{
+    border:2px double black;
+    width: 100%;
+    padding: 30px 0px;
+    display: none;
+}

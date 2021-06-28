@@ -1,0 +1,109 @@
+body{
+    font-family: Cambria;
+}
+header{
+    border: 3px solid;
+    padding: 5px;
+}
+#getdata2 input{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1040px){
+#getdata1 select{
+    font-family: inherit;
+    font-size: 18px;
+    height: 35px;
+    text-transform: capitalize;
+}
+#getdata1,#getdata2{
+    border: 3px solid;
+    padding: 20px;
+    width: fit-content;
+}
+#getdata1 table{
+    font-size: 18px;
+    height: 100px;
+}
+#getdata2 table{
+    font-size: 25px;
+    width: 100%;
+}
+#openmcq,#openfillups{
+    padding: 0px 20px 30px 20px;
+    border: 5px solid;
+    display: none;
+    font-size: 20px;
+    width: fit-content;
+}
+#openmcq textarea,#openfillups textarea{
+    font-size: 25px;
+    font-family: inherit;
+    color: blue;
+    white-space: pre-wrap;
+}
+}
+@media only screen and (min-width: 1040px){
+    #getdata1 select{
+        font-family: inherit;
+        font-size: 20px;
+        width: 300px;
+        height: 35px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    #getdata1,#getdata2{
+        border: 3px solid;
+        padding: 20px;
+    }
+    #getdata1 table{
+        height: 100px;
+        font-size: 25px;
+        width: 100%;
+    }
+    #getdata2 table{
+        font-size: 25px;
+        width: 40%;
+    }
+    #openmcq,#openfillups{
+        padding: 0px 20px 30px 20px;
+        border: 5px solid;
+        display: none;
+        font-size: 25px;
+    }
+    #openmcq textarea,#openfillups textarea{
+        font-size: 25px;
+        font-family: inherit;
+        color: blue;
+        width: 90%;
+        height: 100px;
+        white-space: pre-wrap;
+    }
+}
+
+#openmcq input[type='text'],#openfillups input[type = 'text']{
+    width: 250px;
+    height: 25px;
+    font-size: 20px;
+    font-family: inherit;
+    color: blue;
+}
+#openmcq input[type = 'checkbox'],#openfillups input[type = 'checkbox']{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+#lasbut button,#lasbut2 button{
+    width: 150px;
+    height:40px;
+    padding: 5px;
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+

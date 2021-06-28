@@ -1,0 +1,75 @@
+body{
+    font-family: Cambria;
+}
+#header{
+    border: 2px ridge black;
+    text-align: center;
+    font-size: 30px;
+    padding: 32px 0px;
+    font-variant: small-caps;
+}
+#det,#users_det{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 23px;
+    padding: 5px;
+}
+#det td,#users_det td{
+    text-transform: capitalize;
+}
+#chpass{
+    font-size: 20px;
+    font-family: inherit;
+    width: 50%;
+    font-weight: 700;
+}
+#chpass input{
+    height: 30px;
+    width: 300px;
+    font-size: 18px;
+    font-family: inherit;
+}
+.chbut{
+    font-family: inherit;
+    font-size: 18px;
+    padding: 6px;
+    width: 250px;
+    cursor: pointer;
+}
+.show_dia{
+    top: 100px;
+    position:absolute;
+    border: 5px solid black;
+    margin-left: 15%;
+    height: 500px;
+    width: 70%;
+    background-color: white;
+}
+#pass1{
+    border: 2px solid black;
+    padding:10px;
+    display: none;
+}
+#cre_form,#del_form{
+    font-size:20px;
+}
+#cre_form input,#del_form input{
+    width: 300px;
+    padding:5px;
+    font-size: 18px;
+    font-family: inherit;
+}
+#cre_form button,#del_form button{
+    padding: 5px;
+    font-size: 19px;
+    font-family: inherit;
+    cursor: pointer;
+    width: 250px;
+}
+#butall button{
+    font-size: 20px;
+    font-family:inherit;
+    cursor: pointer;
+    width: 200px;
+    padding: 5px;
+}

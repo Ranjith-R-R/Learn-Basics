@@ -1,0 +1,86 @@
+@media only screen and (min-width: 1040px){
+    #main{
+        background-color: black;
+        border: 2px solid black;
+        color: white;
+        font-family: Cambria;
+        font-size: 16px;
+        padding: 15px 0px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    #tick1{
+        display: none;
+    }
+    #tick,#cross{
+        cursor: pointer;
+    }
+    #link{
+        float: right;
+        word-spacing: 10px;
+    }
+    #link a{
+        color: white;
+        text-decoration: none;
+        margin-right: 25px;
+    }
+    .d1,.d2,.d3,.d4,.d5,.d6,.d7{
+        display: inline-block;
+    }
+    #link .active{
+        color: yellow;
+    }
+}
+@media only screen and (max-width: 1040px){
+    #main{
+        background-color: black;
+        border: 2px solid black;
+        color: white;
+        font-family: Cambria;
+        font-size: 16px;
+        padding: 15px 0px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 34%;
+        height: 100%;
+        display: none;
+    }
+    #tick{
+        cursor: pointer;
+        font-size: 25px;
+        margin-left: 8px;
+    }
+    #cross{
+        cursor: pointer;
+        float: right;
+        font-size: 25px;
+        margin-top: -18px;
+    }
+    #mob-view{
+        background-color: black;
+        padding: 10px 0px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display:block;
+        color: white;
+        font-family: Cambria;
+        font-size: 16px;
+    }
+    #link{
+        margin-top: 40px;
+        text-align: center;
+        line-height: 30px;
+    }
+    #link a{
+        color: white;
+        text-decoration: none;
+    }
+    #link .active{
+        color: yellow;
+    }
+}
