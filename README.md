@@ -2,5 +2,12 @@
 
 #Hi Everyone , I am Ranjith R R
 
-#This website is owned by private company.
-#This website will not work without Database Connected...
+  * This product concept is mainly based on online recruitment process , online exams , online tests.
+  * Here we add Questions and answers to our databases and get whenever needed in specified formats.
+ 
+Product Development : 
+  Server Side : Core PHP
+  FrontEnd : Core JS + Core CSS
+  DataBase : MySQL
+  Usage : Website (Only for Desktop)
+  
